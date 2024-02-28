@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <div class="background-container">
+    </div>
+
+    <div class="container">
+        <table class="borderer-table">
+            <tr>
+                <th colspan="5">
+                    <h1>Aprendiendo a Multiplicar</h1>
+                </th> 
+            </tr>
+            <tr class="numbers">
+                <td colspan="5"><div id="multiplication"></div></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="number" id="answer" placeholder="">
+                </td>
+                <td class="emoji" id="emoji">🎓</td></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button onclick="checkAnswer()" id="boton">Pulsa para comprobar</button>
+                </td>
+                <td colspan="2">
+                    <button onclick="newOperation()" id="boton_pasar" class="boton_pasar">Pasar</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
